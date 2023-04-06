@@ -72,4 +72,8 @@ int main()
   */
    //-----------------------------------------------------------------------------
    // Estruturas condicionais
+
+   printf("Digite aqui:");
+
+   scanf("%d");
 }
