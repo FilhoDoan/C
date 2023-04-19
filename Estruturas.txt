@@ -1,0 +1,57 @@
+
+    Condição: if/else/else if
+
+    Forma 1
+    if(Condição){
+        Instruções;
+    }
+-----------------------------------------------
+    Forma 2
+    if(Condição){
+        Instrução;
+    }else {
+        Instrução 3;
+    }
+-----------------------------------------------
+    Forma 3
+    If(Condição){
+        Instrução;
+
+    } else if(Condição 2){
+        Instrução 2;
+    } else {
+        Instrução 3;
+    }
+-----------------------------------------------
+    Loop: for
+    for(inicial; condição; incremento){
+        Instrução;
+    }
+
+    int cont;
+
+    for (cont = 0; cont < 5; cont++)
+    {
+        printf("%d", cont);
+    }
+-----------------------------------------------
+    Loop : while
+    while(Condição){
+        Instrução
+    }
+    int cont2 = 0 ;
+    while (cont2 <= 20)
+    {
+        printf("%d\n", cont2);
+        cont2++;
+    }
+-----------------------------------------------
+    Loop : do while
+
+    do{
+        Instrução
+    } while(Condição);
+
+
+
+}
