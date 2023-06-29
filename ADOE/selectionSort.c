@@ -11,7 +11,6 @@ void mostrarVetor(int v[], int n ){
         printf("%d ", v[i]);
 
     }  printf("\n");
-
 }
 
 void selectionSort(int v[], int l , int r){
@@ -42,7 +41,6 @@ void selectionSortD(int v[], int l, int r){
         v[max] = aux;
     }
 }
-
 
 
 int main(){

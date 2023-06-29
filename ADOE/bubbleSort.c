@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Pior caso quando o vetor está ordenado 
+//algoritmo estavel
 
 void swap(int *x, int *y){
     int aux = *x;
@@ -13,16 +15,15 @@ void mostrarVetor(int v[], int n ){
     } printf("\n");
 }
 
-
 void bubbleSort(int v[], int l , int r){
     for(int i = l ; i < r ; i ++){
-        for(int j = l ; j <=r ; j++){
+        for(int j = l ; j < r ; j++){
             
             if(v[j] > v[j+1]){
                 int aux = v[j];
                 v[j] = v[j+1];
                 v[j+1] = aux;
-                
+
             }
         }
     }
@@ -41,7 +42,7 @@ void bubbleSortD(int v[], int l , int r){
 }
 
 int main(){
-int v[]= {90, 5, 10 ,20};
+int v[]= {5 ,10 ,20 ,90 };
 int n = sizeof(v) / sizeof(v[0]);
 int l = 0 ; 
 int r = n-1;

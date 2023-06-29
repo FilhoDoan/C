@@ -101,7 +101,7 @@ void shaker_sort(int v[], int l, int r){
 void insertion_sort(int v[], int l, int r)
 {
     for(int i=l+1; i<=r; i++)
-    {
+{
         for(int j=i; j>l && v[j]<v[j-1]; j--){
             int a = v[j];
             v[j] = v[j-1];
