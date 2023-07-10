@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <macros.h>
+
 
 void showVet(int v[], int n ){
     for(int i = 0 ; i < n ; i++){
