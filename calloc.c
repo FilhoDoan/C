@@ -10,7 +10,7 @@ Detecta overflow(A*N > capacidade)
 Retorna null ou um ponteiro caso a quantidade ser zero
 A memoria é inicializada como zero
 */
-int *p = calloc(5, sizeof(int))
+int *p = calloc(5, sizeof(int));
 Free(p);
 
 }
