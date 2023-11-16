@@ -1,8 +1,0 @@
-Funções de Memoria dinamica,
-
-#include <stdlib.h>
-void *malloc(size_t size);
-void free(void *ponteiro);
-void calloc(size_t nmemb size_t size);
-void *realloc(void *ponteiro, sieze_t size);
-
