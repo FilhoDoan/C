@@ -12,16 +12,15 @@ void countSort(Item *v, int comeco, int final){
             tamanho = v[i];
         }
         tamanho += 2 ; 
-
     }
 
     int *vetContagem = calloc(sizeof(int), tamanho);
 
     for(int i = comeco ; i <= final ; i ++){
-        vetContagem[v[i] +1 ]++;
+        vetContagem[v[i] + 1 ]++;
     }
 
-    for(int i = 1 ; i < tamanho ; i ++ ){ 
+    for(int i = 1 ; i <= tamanho ; i ++ ){ 
         vetContagem[i]+= vetContagem[i - 1 ] ; 
     }
     Item *vetOrdenado = malloc(sizeof(Item)* (final - comeco + 1 ));
